@@ -40,7 +40,7 @@ const liveChatForm = document.querySelector("#liveChatForm");
 const liveChatInput = document.querySelector("#liveChatInput");
 
 const VALID_CODE = "7799";
-const PROMO_CODE = "SYA333";
+const PROMO_CODE = "OUG22";
 const REGISTRATION_URL = "https://reffpa.com/L?tag=d_5765768m_69917c_&site=5765768&ad=69917&r=registration";
 const SUPPORT_URL = "https://t.me/FARISHACKERRR_BOT";
 const STORAGE_KEY = "nexus-interface-state";
