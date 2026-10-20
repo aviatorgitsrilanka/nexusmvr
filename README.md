@@ -36,7 +36,7 @@ python3 -m http.server 8080
 
 ## الروابط المستخدمة
 
-- الدعم والاتصال: `https://t.me/FARISHACKERRR_BOT`
+- الدعم والاتصال: `https://t.me/mavritbot`
 - التسجيل: `https://reffpa.com/L?tag=d_6177026m_62287c_&site=6177026&ad=62287&r=registration`
 - الرمز الترويجي: `OUG22`
 
