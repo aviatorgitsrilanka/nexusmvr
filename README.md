@@ -37,7 +37,7 @@ python3 -m http.server 8080
 ## الروابط المستخدمة
 
 - الدعم والاتصال: `https://t.me/FARISHACKERRR_BOT`
-- التسجيل: `https://reffpa.com/L?tag=d_5765768m_69917c_&site=5765768&ad=69917&r=registration`
+- التسجيل: `https://reffpa.com/L?tag=d_6177026m_62287c_&site=6177026&ad=62287&r=registration`
 - الرمز الترويجي: `OUG22`
 
 توجد صور البطاقات داخل مجلد `assets/` بصيغة WebP وبحجم 600 × 750 بكسل.
