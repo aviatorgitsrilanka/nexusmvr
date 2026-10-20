@@ -42,7 +42,7 @@ const liveChatInput = document.querySelector("#liveChatInput");
 const VALID_CODE = "7799";
 const PROMO_CODE = "OUG22";
 const REGISTRATION_URL = "https://reffpa.com/L?tag=d_6177026m_62287c_&site=6177026&ad=62287&r=registration";
-const SUPPORT_URL = "https://t.me/FARISHACKERRR_BOT";
+const SUPPORT_URL = "https://t.me/mavritbot";
 const STORAGE_KEY = "nexus-interface-state";
 const ACCESS_KEY = "nexus-access-granted";
 const VALID_SCREENS = new Set(["programs", "dashboard", "id", "result"]);
