@@ -38,6 +38,6 @@ python3 -m http.server 8080
 
 - الدعم والاتصال: `https://t.me/FARISHACKERRR_BOT`
 - التسجيل: `https://reffpa.com/L?tag=d_5765768m_69917c_&site=5765768&ad=69917&r=registration`
-- الرمز الترويجي: `SYA333`
+- الرمز الترويجي: `OUG22`
 
 توجد صور البطاقات داخل مجلد `assets/` بصيغة WebP وبحجم 600 × 750 بكسل.
