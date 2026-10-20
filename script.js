@@ -58,7 +58,7 @@ const simulatedChatMessages = [
     sender: "user",
     author: "محمد — ID 1847623545",
     avatar: "م",
-    text: "حصلت للتو على 8 إشارات ووضعت رهانات بقيمة 1 USD لكل منها. نتيجتي الآن ربح 344 USD!",
+    text: "حصلت للتو على 8 إشارات ووضعت رهانات بقيمة 100 MRU لكل منها. نتيجتي الآن ربح 34400 MRU!",
   },
   {
     sender: "system",
@@ -70,7 +70,7 @@ const simulatedChatMessages = [
     sender: "user",
     author: "عيسى — ID 1845837364",
     avatar: "ع",
-    text: "لم أفهم لماذا يجب أن أبدأ برهان 100 SYP. أليس المبلغ قليلًا جدًا؟",
+    text: "لم أفهم لماذا يجب أن أبدأ برهان 100 MRU. أليس المبلغ قليلًا جدًا؟",
   },
   {
     sender: "system",
@@ -94,7 +94,7 @@ const simulatedChatMessages = [
     sender: "user",
     author: "عمر — ID 1843159076",
     avatar: "ع",
-    text: "هل يمكنني البدء برهان 1 USD؟",
+    text: "هل يمكنني البدء برهان 100 MRU؟",
   },
   {
     sender: "system",
@@ -106,19 +106,19 @@ const simulatedChatMessages = [
     sender: "user",
     author: "خالد — ID 1847281640",
     avatar: "خ",
-    text: "أي عملة يُفضّل استخدامها: USD أم SYP؟",
+    text: "هل تُعرض مبالغ الرهان هنا بعملة MRU؟",
   },
   {
     sender: "system",
     author: "NEXUS",
     avatar: "N",
-    text: "خالد — ID 1847281640، استخدم العملة المحددة في حسابك. تحقّق من المبلغ والعملة قبل كل رهان.",
+    text: "خالد — ID 1847281640، نعم، المبالغ المعروضة هنا بعملة MRU. تحقّق من إعدادات عملة حسابك قبل كل رهان.",
   },
   {
     sender: "user",
     author: "يوسف — ID 1844509327",
     avatar: "ي",
-    text: "هل يمكنني البدء بمبلغ 500 SYP فقط؟",
+    text: "هل يمكنني البدء بمبلغ 500 MRU فقط؟",
   },
   {
     sender: "system",
@@ -202,7 +202,7 @@ const simulatedChatMessages = [
     sender: "user",
     author: "زيد — ID 1848640932",
     avatar: "ز",
-    text: "حددت ميزانية يومية قدرها 10 USD. هل هذا مناسب للبدء؟",
+    text: "حددت ميزانية يومية قدرها 1000 MRU. هل هذا مناسب للبدء؟",
   },
   {
     sender: "system",
@@ -214,7 +214,7 @@ const simulatedChatMessages = [
     sender: "user",
     author: "طارق — ID 1842468705",
     avatar: "ط",
-    text: "وضعت خمسة رهانات بقيمة 200 SYP وربحت 1800 SYP!",
+    text: "وضعت خمسة رهانات بقيمة 200 MRU وربحت 1800 MRU!",
   },
   {
     sender: "system",
@@ -238,13 +238,13 @@ const simulatedChatMessages = [
     sender: "user",
     author: "رامي — ID 1849753206",
     avatar: "ر",
-    text: "هل يمكن الانتقال من الرهان بـ SYP إلى USD؟",
+    text: "هل يمكنني تحديد ميزانية قدرها 1000 MRU والالتزام برهان 100 MRU؟",
   },
   {
     sender: "system",
     author: "NEXUS",
     avatar: "N",
-    text: "رامي — ID 1849753206، تحقّق أولًا من إعدادات عملة حسابك. لا يمكن اعتبار مبالغ USD وSYP متساوية.",
+    text: "رامي — ID 1849753206، حدّد ميزانيتك مسبقًا ولا تتجاوزها. رهان 100 MRU لا يضمن الربح.",
   },
   {
     sender: "user",
@@ -574,12 +574,12 @@ function getAutoReply(message) {
     };
   }
 
-  if (/رهان|syp|usd|مبلغ|ميزانية/.test(normalized)) {
+  if (/رهان|mru|أوقية|اوقية|مبلغ|ميزانية/.test(normalized)) {
     return {
       sender: "system",
       author: "NEXUS تلقائي",
       avatar: "N",
-      text: "ابدأ بمبلغ صغير بعملة الحساب وحدد حدًا مسبقًا. لا ترفع الرهان بدافع الانفعال.",
+      text: "المبالغ المعروضة هنا بعملة MRU، وأقل مبلغ مذكور هو 100 MRU. حدّد ميزانيتك مسبقًا ولا تتجاوزها، ولا ترفع الرهان بدافع الانفعال.",
     };
   }
 
